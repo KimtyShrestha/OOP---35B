@@ -3,6 +3,9 @@ package week2;
 
 public class Variable {
     public class VariableClass {
+        private static char[] staticVariable;
+        private char[] instanceVariable;
+
         public static void main(String[] args) {
             /* Non primitive data type 
              * decalaration          */
@@ -45,8 +48,11 @@ public class Variable {
             /*we can ccess the static  variable with class */
             System.out.println(VariableClass.staticVariable);
         }
-    } 
-}       
+    }
+}
+    
+
+            
     
       
     

@@ -2,7 +2,6 @@ package week3;
 public class SwitchCase {
     public static void main(String[] args) {
         char charValue ='b';
-        char intValue =10;
         switch (charValue){
             case 'a':
                 System.out.println("Apple ");
