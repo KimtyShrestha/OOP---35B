@@ -1,5 +1,6 @@
+package week2;
 
-package week1;
+
 import java.util.Scanner;
 
 public class Inputoutput {
@@ -65,10 +66,8 @@ public class Inputoutput {
          System.out.println("over 18? "+status);
          System.out.println("YOu have sibling number of sibling "+sibling);
          scan1.close();
-
-    }   
-
-
+    }  
+}           
 
 
 
@@ -76,6 +75,4 @@ public class Inputoutput {
 
 
 
-    }
-    
-}
+

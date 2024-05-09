@@ -2,15 +2,19 @@ package week1;
 
 public class hello {
     public static void main(String[] args) {
-        System.out.print("Hello World!");
+        System.out.print("Hello World!\n");
+
         
-     // 2. Extend/Modify the above program to print two additional lines:
-     // This is my first program
-    // I am on module ST4003CEM
-    // System.out.print (not println) and produces the same output.
-        System.out.print("This is mu first program\n");
-        System.out.print("I am on module ST400CEM");
-    //  3. Write a program that prints the following output:
+ // 2. Extend/Modify the above program to print two additional lines:
+ // This is my first program
+ // I am on module ST4003CEM
+ // System.out.print (not println) and produces the same output.
+        System.out.print("This is my first program\n");
+        System.out.println("I am on module ST400CEM\n");
+
+
+
+//  3. Write a program that prints the following output:
 // A "quoted" String is
 // 'much' better if you learn
 //  the rules of "escape sequences."
@@ -25,7 +29,10 @@ public class hello {
         System.out.println("Also, \"\" represents an empty\n");
         System.out.println("String. Don't forget: use \\\"");
         System.out.println("instead of \" !\n");
-        System.out.println("'' is not the same as ");
+        System.out.println("'' is not the same as \"\n");
+
+
+
 // 4. WAP that prints the following pattern:
 // *
 // **
@@ -33,18 +40,23 @@ public class hello {
 // ****
 
         System.out.println("*");
-        System.out.println("");
-        System.out.println("*"); 
-        System.out.println(""); 
+        System.out.println("**");
+        System.out.println("***"); 
+        System.out.println("****\n"); 
+
+
+
 // 5. WAP prints the following pattern:
 // *********
 // *********
 // *********
 // *********
-        System.out.println("*");
-        System.out.println("*");
-        System.out.println("*");
-        System.out.println("*");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********");
+        System.out.println("*********\n");
+
+
 
 // 6. WAP that prints the following output:
 // A well-formed Java program has a main method with { and } braces.
@@ -53,9 +65,9 @@ public class hello {
 // a ' and a "?  Or between a " and a \"?
 // One is what we see when we're typing our program. The other is what appears on the "console."
 
-        System.out.print("\n\nA well-formed Java program has a main method with { and }\nbraces.\n\n\n");
+        System.out.print("\n\nA well-formed Java program has a main method with { and } braces.\n\n");
         System.out.println("A System.out.println statement has ( and ) and usually a\nString that starts and ends with a \" character.\n");
-        System.out.println("(But we type \\\" instead!)\n\nWhat is the difference between\na ' and a \"? Or between a \" and a \\\"?\n\n\n\n");
+        System.out.println("(But we type \\\" instead!)\n\nWhat is the difference between\na ' and a \"? Or between a \" and a \\\"?\n\n\n");
         System.out.println("One is what we see when we're typing our program. The other is what\nappears on the \"console.\"\n\n");
 
     }

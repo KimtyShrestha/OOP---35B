@@ -1,4 +1,5 @@
-package week1;
+package week2;
+
 
 public class Variable {
     public class VariableClass {
@@ -31,7 +32,7 @@ public class Variable {
             /* using class  */
             String stringInfo2 = new String("Class");
             /* Objecct use the same class as writtem above  */
-            VariableClass varoiableObj= new VariableClass();// kunai pani refererece lida or add garda oop ma new rakhna parne hunchha 
+            VariableClass variableObj= new VariableClass();// kunai pani refererece lida or add garda oop ma new rakhna parne hunchha 
               // VariableClass chai file name bata aako ho  file name bata hamile euta variable banauna sakinchha  or euta object create garna sakinchha  sakinchha 
             // Illegal action following 
             /*byte byteValue  = 10; // yo can not readeclare
@@ -43,7 +44,13 @@ public class Variable {
             System.out.println(variableObj.instanceVariable);
             /*we can ccess the static  variable with class */
             System.out.println(VariableClass.staticVariable);
-
+        }
+    } 
+}       
+    
+      
+    
+ 
 
 
 
@@ -52,8 +59,4 @@ public class Variable {
 
     
         
-        }
-    }
-    }
-    
-}
+   

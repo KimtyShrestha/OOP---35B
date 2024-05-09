@@ -1,4 +1,5 @@
-package week1;
+package week2;
+
 public class operatorclass {
     public static void main(String[] args) {
         /*Arithmetic Operations */
@@ -68,8 +69,6 @@ public class operatorclass {
         /*task 1 
          * write a program to print whether a variable is greater or equal to 18
           */
-
-          int = 10;
           
 
 
